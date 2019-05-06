@@ -1,0 +1,56 @@
+#homeForm{
+  text-align: left;
+}
+#home{
+  border-radius: 15%;
+  background-color: black;
+  color: white;
+}
+#subBTN{
+  border-radius: 15%;
+  background-color: black;
+  color: white;
+}
+div{
+  padding: 3px;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+#Text1{
+  text-align: center;
+  padding: 2px;
+}
+#Text2{
+  padding: 2px;
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+#subBtnDiv{
+  padding-top: 10px;
+  text-align: center;
+}
+#aniLab{
+  font-size: 16px;
+  font-weight: bold;
+}
+#numLab{
+  font-size: 16.25px;
+  font-weight: bold;
+}
+body{
+  background-color: #eeccff;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: solid;
+  border-color: #ff66ff;
+}
+html{
+  background-color: white;
+}
