@@ -28,16 +28,16 @@ element.addEventListener("click", function(e) {
 
 // animation turn triangle
 
-// element = document.getElementById("triangle");
-//
-// element.addEventListener("click", function(e) {
-//   e.preventDefault;
-//   element.classList.remove("turntriangle");
-//
-//   element.offsetWidth = element.offsetWidth;
-//
-//   element.classList.add("turntriangle");
-// }, false);
+element = document.getElementById("triangle");
+
+element.addEventListener("click", function(e) {
+  e.preventDefault;
+  element.classList.remove("turntriangle");
+
+  element.offsetWidth = element.offsetWidth;
+
+  element.classList.add("turntriangle");
+}, false);
 
 function myFunction() {
   var x = document.getElementById("answer");

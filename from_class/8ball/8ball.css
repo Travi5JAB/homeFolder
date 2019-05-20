@@ -94,7 +94,7 @@ p{
 }
 /////////////////////////////////////////////////////////////////////
 /* triangle turning animation doesnt work atm */
-@-webkit-keyframes turntriangle {
+/* @-webkit-keyframes turntriangle {
   0%, 20%, 50%, 80%, 100% {transform: translateZ(0);}
   40% {transform: translateZ(-40px);}
   60% {transform: translateZ(20px);}
@@ -113,7 +113,7 @@ p{
     animation-duration: 1s;
     -webkit-animation-name: turntriangle;
     animation-name: turntriangle;
-  }
+  } */
 
 
 

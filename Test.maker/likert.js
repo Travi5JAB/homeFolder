@@ -20,7 +20,7 @@ class Likert extends Component{
         return(
           <div>
             <div id="likert">
-                <label id= "QNum" name="AnsNum">{number}: </label>
+                <label id= "QNum"{number} name="AnsNum">{number}: </label>
 
                 <label>A:</label>
                 <input type="radio" name= {number} value="A">

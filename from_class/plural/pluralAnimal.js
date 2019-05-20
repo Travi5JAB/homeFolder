@@ -24,10 +24,14 @@ if(animalname.includes(noun) && number > 1){
       } var revWord = wordArr2.reverse()
       if(revWord[0] === "s" && number > 1){
         return number + " " + revWord.reverse().join("")
-}else if(number == 1){
+}else if(number == 1 && noun.length>0){
   return number + " " + noun
-}else if(number > 1){
+}else if(number > 1 && noun.length>0){
     return number + " " + noun + "s";
+}else if(number < 0){
+  return "You Can't Have Negative Animals"
+}else if(number === 0){
+    return "How Many Animals Do You Want?"
 }else{
     return "Enter number , Animal Name"
 }
